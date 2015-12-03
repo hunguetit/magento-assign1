@@ -7,19 +7,19 @@ class Smart_Test_Adminhtml_CreateController extends Mage_Adminhtml_Controller_Ac
         $dataPost = $this->getRequest()->getPost();
 //        Zend_Debug::dump($data);
 //        die();
-//        $orderQty = array();
+        $orderQty = array();
         $orderId = array();
-//        $productsQty = $dataPost['productAddQty'];
+        $productsQty = $dataPost['productAddQty'];
         $productsId = $dataPost['productAddId'];
-//        foreach ($productsQty as $productQty){
-//            if (is_numeric($productQty)){
-//                $orderQty[] = $productQty;
-//            }
-//        }
+        foreach ($productsQty as $productQty){
+            if (is_numeric($productQty)){
+                $orderQty[] = $productQty;
+            }
+        }
         foreach ($productsId as $productId){
             $orderId[] = $productId;
         }
-//        Mage::register('orderQty', $orderQty);
+        Mage::register('orderQty', $orderQty);
         Mage::register('orderId', $orderId);
 
         $this->loadLayout();

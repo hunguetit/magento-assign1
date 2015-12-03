@@ -143,7 +143,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             $total += $orderQty[$i] * $orderPrice[$i];
         }
         $total = number_format($total, 0 ,'.', ',');
-
         return $total;
     }
 
@@ -161,6 +160,18 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
 
     public function getSaveUrl(){
         return $this->getUrl('*/*/save', array('_current'=> true));
+    }
+    public function getQtyOrder(){
+        $Qty = Mage::registry('orderQty');
+        $Id = Mage::registry('orderId');
+        $qtyOrder = array();
+        for ($i=0; $i<count($Id); $i++){
+            $qtyOrder[] = [
+                'product_id' => $Id[$i],
+                'qty'        => $Qty[$i],
+            ];
+        }
+        return $qtyOrder;
     }
 
 }

@@ -71,3 +71,23 @@
 2015-12-02T10:45:45+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
 2015-12-02T10:46:29+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
 2015-12-02T10:46:29+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
+2015-12-03T08:14:32+00:00 ERR (3): Notice: Undefined property: Mage_Catalog_Model_Resource_Product_Collection::$entity_id  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 6
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
+2015-12-03T08:27:59+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 5

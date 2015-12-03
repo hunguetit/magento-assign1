@@ -50,6 +50,7 @@
                             <th><?php echo $this->__("Type") ?></th>
                             <th><?php echo $this->__("SKU") ?></th>
                             <th><?php echo $this->__("Price") ?></th>
+                            <th><?php echo $this->__("Quantity") ?></th>
                             <th><?php echo $this->__("Select") ?></th>
                         </tr>
                         </thead>
@@ -62,7 +63,7 @@
                                 <td><?php echo $product->type_id ?></td>
                                 <td class="center"><?php echo $product->sku ?></td>
                                 <td class="center"><?php echo $product->price ?></td>
-<!--                                <td class="center"><input name="productAddQty[]" type="number" style="width: 50px;" min="1" value="1"></td>-->
+                                <td class="center"><input name="productAddQty[]" type="text" style="width: 50px;"></td>
                                 <td class="center"><input name="productAddId[]" type="checkbox" value="<?php echo $product->entity_id ?>"></td>
                             </tr>
                         <?php } ?>
