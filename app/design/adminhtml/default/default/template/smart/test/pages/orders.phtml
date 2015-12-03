@@ -22,6 +22,7 @@
                             </thead>
                             <tbody>
                             <?php $_odd = ''; ?>
+                            <form method="post" action="<?php echo Mage::helper("adminhtml")->getUrl('*/*/total'); ?>">
                             <?php foreach ($products as $product){ ?>
                                 <tr class="odd gradeX">
                                     <td><?php echo $product->entity_id ?></td>
@@ -32,6 +33,8 @@
                                     <td class="center"><input name="productAddQty[]" type="number" style="width: 50px;" min="1" value="1"></td>
                                 </tr>
                             <?php } ?>
+                            <button type="submit">UPDATE</button>
+                            </form>
                             </tbody>
                         </table>
                 </div>
