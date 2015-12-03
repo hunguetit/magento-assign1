@@ -21,7 +21,7 @@ class Smart_Test_Adminhtml_CreateController extends Mage_Adminhtml_Controller_Ac
         }
         Mage::register('orderQty', $orderQty);
         Mage::register('orderId', $orderId);
-
+        Mage::getSingleton('adminhtml/session')->addError($this->__('Success.'));
         $this->loadLayout();
         $this->renderLayout();
     }
@@ -35,6 +35,9 @@ class Smart_Test_Adminhtml_CreateController extends Mage_Adminhtml_Controller_Ac
 //            ->importPostData($this->getRequest()->getPost('order'))
 //            ->createOrder();
 //        Mage::getSingleton('adminhtml/session')->addSuccess($this->__('The order has been created.'));
+
+    }
+    protected function createInvoice($order_id){
 
     }
 }
