@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Smart_Test>
+            <version>0.1.0</version>
+        </Smart_Test>
+    </modules>
+    <global>
+        <models>
+            <smart_test>
+                <class>Smart_Test_Model</class>
+                <resourceModel>smart_test_resource</resourceModel>
+            </smart_test>
+        </models>
+
+        <blocks>
+            <smart_test>
+                <class>Smart_Test_Block</class>
+            </smart_test>
+        </blocks>
+
+        <helpers>
+            <smart_test>
+                <class>Smart_Test_Helper</class>
+            </smart_test>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <smart_test before="Mage_Adminhtml">Smart_Test_Adminhtml</smart_test>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <sales>
+                <children>
+                    <smart_test module="smart_test">
+                        <title>Managed Smart Test</title>
+                        <action>adminhtml/test</action>
+                    </smart_test>
+                </children>
+            </sales>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <sales>
+                            <children>
+                                <smart_test module="smart_test">
+                                    <title>Managed Smart Test</title>
+                                    <action>adminhtml/test</action>
+                                </smart_test>
+                            </children>
+                        </sales>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <smart_test module="smart_test">
+                    <file>smart_test.xml</file>
+                </smart_test>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

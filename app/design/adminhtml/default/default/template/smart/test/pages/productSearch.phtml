@@ -1,0 +1,33 @@
+<?php
+$productSearch = $this->getProductSearch();
+?>
+<h3>Product Search</h3>
+<form action="<?php echo Mage::helper("adminhtml")->getUrl('*/*/index'); ?>">
+    <?php echo $this->getBlockHtml('formkey')?>
+    <table>
+        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+            <thead>
+            <tr>
+                <th><?php echo $this->__("ID") ?></th>
+                <th><?php echo $this->__("Name") ?></th>
+                <th><?php echo $this->__("Type") ?></th>
+                <th><?php echo $this->__("SKU") ?></th>
+                <th><?php echo $this->__("Price") ?></th>
+                <th><?php echo $this->__("Select") ?></th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr class="odd gradeX">
+                    <td><?=$productSearch->entity_id ?></td>
+                    <td><?php echo $productSearch->name ?></td>
+                    <td><?php echo $productSearch->type_id ?></td>
+                    <td><?php echo $productSearch->sku ?></td>
+                    <td><?php echo $productSearch->price ?></td>
+                    <td><input name="productAdd" type="checkbox" value="<?php echo $productSearch->entity_id ?>"></td>
+                </tr>
+            </tbody>
+        </table>
+    </table>
+    <button class="btn btn-default" type="submit">Select Product
+    </button>
+</form>

@@ -1,0 +1,21 @@
+<?php
+$total = $this->getTotal();
+?>
+<div class="col-lg-3" style="float: right;">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Total
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-8">
+                    <span class="total final">$ <input type="number" style="width: 100px;" value="<?php echo $total ?>,000" disabled readonly /> </span>
+                </div>
+            </div>
+            <!-- /.row (nested) -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+<!-- /.col-lg-12 -->

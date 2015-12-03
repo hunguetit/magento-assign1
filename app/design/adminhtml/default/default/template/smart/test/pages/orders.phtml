@@ -1,0 +1,50 @@
+<?php $products = $this->getProductOrder(); ?>
+<?php $customers = $this->getOrderCustomer(); ?>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><?php echo $this->__("Order Products List") ?></h4>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="dataTable_wrapper">
+                        <table class="table table-striped table-bordered table-hover" id="products_info">
+                            <thead>
+                            <tr>
+                                <th><?php echo $this->__("ID") ?></th>
+                                <th><?php echo $this->__("Name") ?></th>
+                                <th><?php echo $this->__("Type") ?></th>
+                                <th><?php echo $this->__("SKU") ?></th>
+                                <th><?php echo $this->__("Price") ?></th>
+                                <th><?php echo $this->__("Quantity") ?></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php $_odd = ''; ?>
+                            <?php foreach ($products as $product){ ?>
+                                <tr class="odd gradeX">
+                                    <td><?php echo $product->entity_id ?></td>
+                                    <td><?php echo $product->name ?></td>
+                                    <td><?php echo $product->type_id ?></td>
+                                    <td class="center"><?php echo $product->sku ?></td>
+                                    <td class="center"><?php echo $product->price ?></td>
+                                    <td class="center"><input name="productAddQty[]" type="number" style="width: 50px;" min="1" value="1"></td>
+                                </tr>
+                            <?php } ?>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#products_info').DataTable();
+    });
+</script>

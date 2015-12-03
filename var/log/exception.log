@@ -1,0 +1,143 @@
+2015-11-30T08:16:00+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Page_Head' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.head')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.head')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#16 {main}
+2015-11-30T08:16:42+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Page_Head' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.head')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.head')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#16 {main}
+2015-11-30T08:16:48+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Page_Head' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.head')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.head')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#16 {main}
+2015-11-30T08:21:08+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Page_Head' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.head')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.head')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#16 {main}
+2015-11-30T08:48:05+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Test' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.product')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.product')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#10 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#17 {main}
+2015-11-30T08:50:12+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Test' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.product')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.product')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#10 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#17 {main}
+2015-11-30T08:53:46+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Test_Block_Adminhtml_Test' in /var/www/html/magento-test/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('test/adminhtml_...', Array)
+#2 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('test/adminhtml_...', 'test.product')
+#3 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('test/adminhtml_...', 'test.product')
+#4 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento-test/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/magento-test/app/code/core/Mage/Adminhtml/Controller/Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#10 /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php(4): Mage_Adminhtml_Controller_Action->loadLayout()
+#11 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smart_Test_Adminhtml_TestController->indexAction()
+#12 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#13 /var/www/html/magento-test/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/html/magento-test/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/html/magento-test/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/html/magento-test/index.php(86): Mage::run('', 'store')
+#17 {main}

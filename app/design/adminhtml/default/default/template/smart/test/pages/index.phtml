@@ -1,0 +1,16 @@
+<form id="edit_form" action="<?php echo $this->getSaveUrl() ?>" method="post">
+    <?php echo $this->getBlockHtml('formkey') ?>
+    <div class="billing_address">
+        <?php echo $this->getChildHtml('test.billing') ?>
+    </div>
+    <div class="shipping_address">
+        <?php echo $this->getChildHtml('test.shipping') ?>
+    </div>
+    <div class="order">
+        <?php echo $this->getChildHtml('test.order') ?>
+    </div>
+    <div class="total_order">
+        <?php echo $this->getChildHtml('test.total') ?>
+    </div>
+    <button class="btn btn-default" type="submit" style="float: right;">SUBMIT</button>
+</form>

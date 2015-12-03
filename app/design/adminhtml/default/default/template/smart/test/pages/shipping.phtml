@@ -1,0 +1,58 @@
+<?php
+$customers = $this->getOrderCustomer();
+?>
+    <div class="col-lg-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Shipping Address
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <?php foreach ($customers as $customer){ ?>
+                                <div class="form-group">
+                                    <label>First Name *</label>
+                                    <input type="text" class="form-control" value="<?php echo $customer->getData('firstname') ?>" name="firstname">
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name *</label>
+                                    <input type="text" class="form-control" value="<?php echo $customer->getData('lastname') ?>" name="lastname">
+                                </div>
+                                <div class="form-group">
+                                    <label>City *</label>
+                                    <input type="text" class="form-control" value="<?php echo $customer->getData('billing_city') ?>" name="shipping_city">
+                                </div>
+                                <div class="form-group">
+                                    <label>Country *</label>
+                                    <input type="text" class="form-control" value="<?php echo $customer->getData('billing_region') ?>" name="shipping_region">
+                                </div>
+                                <div class="form-group">
+                                    <label>Zip/Postal Code *</label>
+                                    <input type="text" class="form-control" value="<?php echo $customer->getData('billing_postcode') ?>" name="shipping_postcode">
+                                </div>
+                                <div class="form-group">
+                                    <label>Telephone *</label>
+                                    <input type="text" class="form-control" value="<?php echo $customer->getData('billing_telephone') ?>" name="shipping_telephone">
+                                </div>
+
+                                <!--                            <div class="form-group">-->
+                                <!--                                <label>Selects</label>-->
+                                <!--                                <select class="form-control">-->
+                                <!--                                    <option>1</option>-->
+                                <!--                                    <option>2</option>-->
+                                <!--                                    <option>3</option>-->
+                                <!--                                    <option>4</option>-->
+                                <!--                                    <option>5</option>-->
+                                <!--                                </select>-->
+                                <!--                            </div>-->
+
+                        <?php } ?>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->

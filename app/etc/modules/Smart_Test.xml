@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Smart_Test>
+            <active>true</active>
+            <codePool>local</codePool>
+                    </Smart_Test>
+    </modules>
+</config>
