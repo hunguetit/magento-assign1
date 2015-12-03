@@ -27,8 +27,14 @@ class Smart_Test_Adminhtml_CreateController extends Mage_Adminhtml_Controller_Ac
     }
     public function saveAction(){
         $dataPost = $this->getRequest()->getPost();
-                Zend_Debug::dump($dataPost);
+        Zend_Debug::dump($dataPost);
         die();
+
+//        $order = $this->_getOrderCreateModel()
+//            ->setIsValidate(true)
+//            ->importPostData($this->getRequest()->getPost('order'))
+//            ->createOrder();
+//        Mage::getSingleton('adminhtml/session')->addSuccess($this->__('The order has been created.'));
 
     }
 }

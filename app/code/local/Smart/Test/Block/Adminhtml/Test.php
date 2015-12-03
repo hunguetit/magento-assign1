@@ -123,6 +123,7 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
 
     public function getTotal(){
         $orderQty = Mage::registry('orderQty');
+
         $orderId = Mage::registry('orderId');
 //        Zend_Debug::dump($orderId);
 //        die();

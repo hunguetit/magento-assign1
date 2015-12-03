@@ -91,3 +91,13 @@
 2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
 2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
 2015-12-03T08:27:59+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 5
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 2  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 2  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
+2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
+2015-12-03T08:40:58+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
+2015-12-03T08:40:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
