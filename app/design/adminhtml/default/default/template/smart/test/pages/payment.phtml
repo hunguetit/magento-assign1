@@ -1,0 +1,42 @@
+<?php
+$paymentMethods = $this->getPaymentMethod();
+?>
+
+    <div class="col-lg-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><?php echo $this->__("Payment Method") ?></h4>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="dataTable_wrapper">
+                    <table class="table table-striped table-bordered table-hover" id="products_info">
+                        <thead>
+                        <tr>
+                            <th style="width: 50px;"><?php echo $this->__("Select") ?></th>
+                            <th><?php echo $this->__("Payment Title") ?></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php $_odd = ''; ?>
+                        <?php foreach ($paymentMethods as $paymentMethod){ ?>
+                            <tr class="odd gradeX">
+                                <td><input name="payment" type="radio" value="<?php echo $paymentMethod['code'] ?>" ></td>
+                                <td><?php echo $paymentMethod['label'] ?></td>
+                        <?php }?>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+<!-- /.row -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#products_info').DataTable();
+    });
+</script>

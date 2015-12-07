@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a020353c-c283-4283-ae79-9c24b7550ba7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_bod3th3hf4anm22iq8qfgbbqa6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_c8s7oldv67hji1lqtl250fhoq0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_jdigg0eej91itq467chedu5gq2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_mcrttcnq4ffakkb6ajs0dogbj6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_o837dc3pu1divk20bdeb3vbft3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_t6h1mvj041fcrsircge5upgfb1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/1311649416118" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/207266934768" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/408736049870" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/498598712251" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/630497111275" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/914583398177" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/966762503112" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleL_en_US_currencytoname_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_currencytoname_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_core_config_data_1" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/session/sess_37ag8pq3qlcr694usspkh41cq3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/1136379803037" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/286992640560" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/368163947396" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/487020150661" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/report/985635010802" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_DB_PDO_MYSQL_DDL_gift_message_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_gift_message_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/payment.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_log_visitor_info_1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_mon" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_thu" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_tue" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_wed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_core_config_data_1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_log_visitor_info_1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_mon" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_thu" afterPath="" />
@@ -32,8 +24,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_wed" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_wide_11" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_wide_11" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleL_en_US_windowstotimezone_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_windowstotimezone_" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---7ac_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_Zend_LocaleC_de_time_" afterPath="" />
@@ -46,74 +36,23 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_6" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_11" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_11" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php" afterPath="$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Smart_Test.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Smart_Test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/session/sess_bod3th3hf4anm22iq8qfgbbqa6" afterPath="$PROJECT_DIR$/var/session/sess_bod3th3hf4anm22iq8qfgbbqa6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php" afterPath="$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/exception.log" afterPath="$PROJECT_DIR$/var/log/exception.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_ADMIN_NOTIFICATIONS_LASTCHECK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_1" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_website_1" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_website_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_DB_PDO_MYSQL_DDL_eav_attribute_1" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_DB_PDO_MYSQL_DDL_eav_attribute_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_eav_entity_store_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_eav_entity_store_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_1" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_grid_1" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_grid_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_item_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_grid_1" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_grid_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_item_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_payment_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_payment_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_status_history_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_status_history_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_address_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_address_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_option_1" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_option_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_payment_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_payment_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_shipping_rate_1" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_shipping_rate_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_1" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_grid_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_grid_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_item_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleC_en_US_currencynumber_" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleC_en_US_currencynumber_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleC_en_US_currencysymbol_USD" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleC_en_US_currencysymbol_USD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleC_en_US_currencysymbol_" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleC_en_US_currencysymbol_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleC_en_US_currencytoname_USD" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleC_en_US_currencytoname_USD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_Zend_LocaleC_en_US_currencytoregion_US" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---7ac_Zend_LocaleC_en_US_currencytoregion_US" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---7ac_Zend_LocaleC_en_US_date_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---7ac_Zend_LocaleC_en_US_date_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---7ac_Zend_LocaleC_en_US_date_short" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---7ac_Zend_LocaleC_en_US_date_short" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_12" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_4" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_5" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleC_en_US_nametocurrency_USD" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---7ac_Zend_LocaleC_en_US_nametocurrency_USD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleC_en_US_nametocurrency_" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---7ac_Zend_LocaleC_en_US_nametocurrency_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---7ac_Zend_LocaleC_en_US_time_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---7ac_Zend_LocaleC_en_US_time_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_Zend_LocaleC_en_US_time_medium" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---7ac_Zend_LocaleC_en_US_time_medium" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_Zend_LocaleL_en_US_day_" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---7ac_Zend_LocaleL_en_US_day_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_Zend_LocaleL_en_US_month_" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---7ac_Zend_LocaleL_en_US_month_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---7ac_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---7ac_Zend_LocaleL_en_US_symbols_" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---7ac_Zend_LocaleL_en_US_symbols_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_ADMIN_NOTIFICATIONS_LASTCHECK" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7ac_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7ac_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_CORE_CACHE_OPTIONS" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_CORE_CACHE_OPTIONS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_core_config_data_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_core_config_data_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_1" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_website_1" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_customer_eav_attribute_website_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_eav_attribute_1" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_eav_attribute_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_eav_entity_store_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_eav_entity_store_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_1" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_grid_1" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_grid_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_invoice_item_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_grid_1" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_grid_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_item_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_payment_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_payment_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_status_history_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_order_status_history_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_1" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_address_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_address_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_option_1" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_item_option_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_payment_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_payment_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_shipping_rate_1" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_quote_shipping_rate_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_1" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_grid_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_grid_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_item_1" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_DB_PDO_MYSQL_DDL_sales_flat_shipment_item_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_FOOTER_LOCALEEN_US" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_FOOTER_LOCALEEN_US" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_af_ZA_country_ZA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_af_ZA_country_ZA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_af_ZA_language_af" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_af_ZA_language_af" />
@@ -446,13 +385,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_full" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_full" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_long" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_long" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_medium" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_medium" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_short" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_date_short" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_sun" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_day_gregorian_format_wide_sun" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_field_week" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_field_week" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_language_en" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_12" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_4" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_5" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_wide_12" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_month_gregorian_format_wide_12" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_nametocurrency_USD" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_nametocurrency_USD" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_nametocurrency_" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_nametocurrency_" />
@@ -460,7 +396,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_pm_" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_pm_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_relative_0" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_relative_0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_time_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_time_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_time_medium" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_time_medium" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_time_short" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_en_US_time_short" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_es_419_parentlocale_" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7ac_Zend_LocaleC_es_419_parentlocale_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_es_AR_country_AR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleC_es_AR_country_AR" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_es_AR_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleC_es_AR_language_es" />
@@ -635,6 +571,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_Zend_LocaleC_zh_Hant_TW_language_zh" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7ac_Zend_LocaleC_zh_Hant_TW_language_zh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleC_zh_Hant_TW_parentlocale_" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleC_zh_Hant_TW_parentlocale_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleC_zh_Hant_parentlocale_" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleC_zh_Hant_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_currencytoname_" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_currencytoname_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_day_" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_day_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_days_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_days_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_language_" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_language_" />
@@ -643,7 +580,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_months_" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_months_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_symbols_" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_symbols_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_territory_2" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_territory_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_windowstotimezone_" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7ac_Zend_LocaleL_en_US_windowstotimezone_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/system.log" afterPath="$PROJECT_DIR$/var/log/system.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -672,17 +610,17 @@
         <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+              <caret line="255" column="24" selection-start-line="255" selection-start-column="24" selection-end-line="255" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="save.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml">
+      <file leaf-file-name="shipping.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipping.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -691,18 +629,8 @@
       <file leaf-file-name="CreateController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.666666">
-              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state vertical-scroll-proportion="-25.333334">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -711,43 +639,71 @@
       <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state vertical-scroll-proportion="-12.666667">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShipmentController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/ShipmentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.666667">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShipmentController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/Order/ShipmentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="92.96296">
+              <caret line="430" column="47" selection-start-line="430" selection-start-column="47" selection-end-line="430" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Mage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="458" column="29" selection-start-line="458" selection-start-column="29" selection-end-line="458" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.703704">
-              <caret line="324" column="9" selection-start-line="323" selection-start-column="13" selection-end-line="324" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.98553056">
+              <caret line="245" column="27" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orders.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml">
+      <file leaf-file-name="payment.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/payment.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6366559">
-              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+            <state vertical-scroll-proportion="-7.3333335">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml">
+      <file leaf-file-name="shipment.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.037037">
-              <caret line="50" column="62" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="62" />
-              <folding>
-                <element signature="e#6#42#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -784,13 +740,15 @@
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/total.phtml" />
         <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/Order/InvoiceController.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/success.phtml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml" />
         <option value="$PROJECT_DIR$/app/etc/modules/Smart_Test.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/payment.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php" />
       </list>
     </option>
   </component>
@@ -1219,6 +1177,236 @@
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1331,27 +1519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/include/footer.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20257235">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28938907">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/include/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.666667">
@@ -1542,13 +1709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipping.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="39" column="100" selection-start-line="39" selection-start-column="100" selection-end-line="39" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.37037">
@@ -1570,13 +1730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/ShipmentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4051447">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order/Invoice.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1592,17 +1745,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/Order/ShipmentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="265" column="22" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="972" column="32" selection-start-line="972" selection-start-column="32" selection-end-line="972" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,14 +1757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.551447">
           <caret line="281" column="79" selection-start-line="281" selection-start-column="12" selection-end-line="281" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1652,55 +1791,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.703704">
-          <caret line="324" column="9" selection-start-line="323" selection-start-column="13" selection-end-line="324" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.666666">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.037037">
           <caret line="50" column="62" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="62" />
           <folding>
-            <element signature="e#6#42#0#PHP" expanded="true" />
+            <element signature="e#6#42#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.037037">
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/save.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipping.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6366559">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.333334">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/Order/ShipmentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="92.96296">
+          <caret line="430" column="47" selection-start-line="430" selection-start-column="47" selection-end-line="430" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="458" column="29" selection-start-line="458" selection-start-column="29" selection-end-line="458" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smart_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="255" column="24" selection-start-line="255" selection-start-column="24" selection-end-line="255" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/payment.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Sales/ShipmentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Smart/Test/Block/Adminhtml/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.98553056">
+          <caret line="245" column="27" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

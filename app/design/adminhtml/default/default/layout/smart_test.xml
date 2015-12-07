@@ -250,6 +250,8 @@
                     <block type="smart_test/adminhtml_test" name="test.billing" template="smart/test/pages/billing.phtml"/>
                     <block type="smart_test/adminhtml_test" name="test.shipping" template="smart/test/pages/shipping.phtml"/>
                     <block type="smart_test/adminhtml_test" name="test.order" template="smart/test/pages/orders.phtml"/>
+                    <block type="smart_test/adminhtml_test" name="test.payment" template="smart/test/pages/payment.phtml"/>
+                    <block type="smart_test/adminhtml_test" name="test.shipment" template="smart/test/pages/shipment.phtml"/>
                     <block type="smart_test/adminhtml_test" name="test.total" template="smart/test/pages/total.phtml"/>
                 </block>
             </reference>

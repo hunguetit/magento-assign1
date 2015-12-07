@@ -253,7 +253,7 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         // Collect Rates and Set Shipping & Payment Method
         $shippingAddress->setCollectShippingRates(true)
             ->collectShippingRates()
-            ->setShippingMethod('flatrate_flatrate')
+            ->setShippingMethod('freeshipping_freeshipping')
             ->setPaymentMethod('cashondelivery');
         // Set Sales Order Payment
         $quote->getPayment()->importData(array('method' => 'cashondelivery'));
@@ -320,14 +320,55 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
                 } catch (Mage_Core_Exception $e) {
                     var_dump($e);
                 }
-
             }
         }
         Mage::getSingleton('adminhtml/session')->addSuccess($this->__('The order created success.'));
     }
     public function getPaymentMethod(){
-        $allAvailablePaymentMethods = Mage::getModel('payment/config')->getAllMethods();
-//        Zend_Debug::dump($allAvailablePaymentMethods);
+//        $paymentMethod = array();
+//        $allActivePaymentMethods = Mage::getModel('payment/config')->getActiveMethods();
+//        foreach ($allActivePaymentMethods as $allActivePaymentMethod) {
+////            Zend_Debug::dump($allActivePaymentMethod);
+////            die('Hung');
+//            $paymentMethod[] = [
+//                'code'  => $allActivePaymentMethod->getCode(),
+//                'title' => $allActivePaymentMethod->getCode(),
+//            ];
+//        }
+//
+//        Zend_Debug::dump($paymentMethod);
 //        die('Hung');
+
+        $payments = Mage::getSingleton('payment/config')->getActiveMethods();
+//        $methods = array(array(
+//            'value'=>'',
+//            'label'=>Mage::helper('adminhtml')->__('--Please Select--')
+//        ));
+        $paymentMethods = array();
+
+        foreach ($payments as $paymentCode=>$paymentModel) {
+            $paymentTitle = Mage::getStoreConfig('payment/'.$paymentCode.'/title');
+            $paymentMethods[$paymentCode] = array(
+                'label'   => $paymentTitle,
+                'code' => $paymentCode,
+            );
+        }
+        return $paymentMethods;
+    }
+
+    public function getShipmentMethod(){
+        $methods = Mage::getSingleton('shipping/config')->getActiveCarriers();
+        $shipMethods = array();
+        foreach ($methods as $shippingCode=>$shippingModel)
+        {
+            $shippingTitle = Mage::getStoreConfig('carriers/'.$shippingCode.'/title');
+            $shipMethods[$shippingCode] = array(
+                'label'   => $shippingTitle,
+                'code' => $shippingCode,
+            );
+        }
+        Zend_Debug::dump($shipMethods);
+//        die('Hung');
+        return $shipMethods;
     }
 }
