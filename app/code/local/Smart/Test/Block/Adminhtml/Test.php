@@ -175,4 +175,159 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         return $qtyOrder;
     }
 
+    public function saveOrder(){
+        $shipprice = 0;
+        $productQty = Mage::registry('productOrderQty');
+        $productsId = Mage::registry('productOrderId');
+        $productsOrder = array();
+        for ($i=0; $i<count($productsId); $i++){
+            $productsOrder[] = [
+                'product_id' => $productsId[$i],
+                'qty'        => $productQty[$i],
+            ];
+        }
+
+        $customerId = Mage::registry('customerId');
+        $dataPost = Mage::registry('dataPost');
+
+        $quote = Mage::getModel('sales/quote')->setStoreId(1);
+        $quote->setCurrency($order->AdjustmentAmount->currencyID);
+        $customer = Mage::getModel('customer/customer')
+            ->setWebsiteId(1)
+            ->load($customerId);
+
+        $quote->assignCustomer($customer);
+
+        $quote->setSendConfirmation(1);
+        foreach($productsOrder as $productOrder){
+            $product=Mage::getModel('catalog/product')->load($productOrder['product_id']);
+            $quote->addProduct($product,new Varien_Object(array('qty' => $productOrder['qty'])));
+        }
+        $billingAddress = $quote->getBillingAddress()->addData(array(
+            'customer_address_id' => '',
+            'prefix' => '',
+            'firstname' => $dataPost['firstname'],
+            'middlename' => '',
+            'lastname' =>$dataPost['lastname'],
+            'suffix' => '',
+            'company' =>'',
+            'street' => array(
+                '0' => 'Noida',
+                '1' => 'Sector 64'
+            ),
+            'city' => $dataPost['billing_city'],
+            'country_id' => 'IN',
+            'region' => $dataPost['billing_region'],
+            'postcode' => $dataPost['billing_postcode'],
+            'telephone' => $dataPost['billing_telephone'],
+            'fax' => 'gghlhu',
+            'vat_id' => '',
+            'save_in_address_book' => 1
+        ));
+
+        $shippingAddress = $quote->getShippingAddress()->addData(array(
+            'customer_address_id' => '',
+            'prefix' => '',
+            'firstname' => $dataPost['firstname'],
+            'middlename' => '',
+            'lastname' =>$dataPost['lastname'],
+            'suffix' => '',
+            'company' =>'',
+            'street' => array(
+                '0' => 'Noida',
+                '1' => 'Sector 64'
+            ),
+            'city' => $dataPost['billing_city'],
+            'country_id' => 'IN',
+            'region' => $dataPost['billing_region'],
+            'postcode' => $dataPost['billing_postcode'],
+            'telephone' => $dataPost['billing_telephone'],
+            'fax' => 'gghlhu',
+            'vat_id' => '',
+            'save_in_address_book' => 1
+        ));
+
+        if($shipprice==0){
+            $shipmethod='freeshipping_freeshipping';
+        }
+        // Collect Rates and Set Shipping & Payment Method
+        $shippingAddress->setCollectShippingRates(true)
+            ->collectShippingRates()
+            ->setShippingMethod('flatrate_flatrate')
+            ->setPaymentMethod('cashondelivery');
+        // Set Sales Order Payment
+        $quote->getPayment()->importData(array('method' => 'cashondelivery'));
+        // Collect Totals & Save Quote
+        $quote->collectTotals()->save();
+
+        // Create Order From Quote
+        $service = Mage::getModel('sales/service_quote', $quote);
+        $service->submitAll();
+        $increment_id = $service->getOrder()->getRealOrderId();
+
+        $quote = $customer = $service = null;
+        Mage::getSingleton('adminhtml/session')->addSuccess($this->__('Create Order Success.'));
+
+        $order = Mage::getModel("sales/order")->loadByIncrementId($increment_id);
+        try {
+            if(!$order->canInvoice()) {
+                Mage::throwException(Mage::helper('core')->__('Cannot create an invoice.'));
+            }
+
+            $invoice = Mage::getModel('sales/service_order', $order)->prepareInvoice();
+
+            if (!$invoice->getTotalQty()) {
+                Mage::throwException(Mage::helper('core')->__('Cannot create an invoice without products.'));
+            }
+
+            $invoice->setRequestedCaptureCase(Mage_Sales_Model_Order_Invoice::CAPTURE_ONLINE);
+            $invoice->register();
+            $transactionSave = Mage::getModel('core/resource_transaction')
+                ->addObject($invoice)
+                ->addObject($invoice->getOrder());
+
+            $transactionSave->save();
+        }
+        catch (Mage_Core_Exception $e) {
+
+        }
+        $qty=array();
+        foreach($order->getAllItems() as $eachOrderItem){
+            $Itemqty=0;
+            $Itemqty = $eachOrderItem->getQtyOrdered()
+                - $eachOrderItem->getQtyShipped()
+                - $eachOrderItem->getQtyRefunded()
+                - $eachOrderItem->getQtyCanceled();
+            $qty[$eachOrderItem->getId()] = $Itemqty;
+
+        }
+        $email=true;
+        $includeComment=true;
+        $comment="test Shipment";
+
+        if ($order->canShip()) {
+            $shipment = $order->prepareShipment($qty);
+            if ($shipment) {
+                $shipment->register();
+                $shipment->addComment($comment, $email && $includeComment);
+                $shipment->getOrder()->setIsInProcess(true);
+                try {
+                    $transactionSave = Mage::getModel('core/resource_transaction')
+                        ->addObject($shipment)
+                        ->addObject($shipment->getOrder())
+                        ->save();
+                    $shipment->sendEmail($email, ($includeComment ? $comment : ''));
+                } catch (Mage_Core_Exception $e) {
+                    var_dump($e);
+                }
+
+            }
+        }
+        Mage::getSingleton('adminhtml/session')->addSuccess($this->__('The order created success.'));
+    }
+    public function getPaymentMethod(){
+        $allAvailablePaymentMethods = Mage::getModel('payment/config')->getAllMethods();
+//        Zend_Debug::dump($allAvailablePaymentMethods);
+//        die('Hung');
+    }
 }

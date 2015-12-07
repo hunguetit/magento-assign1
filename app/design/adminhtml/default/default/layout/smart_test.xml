@@ -255,5 +255,74 @@
             </reference>
         </reference>
     </adminhtml_create_index>
+    <adminhtml_create_save>
+        <reference name="head">
+            <action method="addJs">
+                <file>smart/test/jquery.min.js</file>
+            </action>
+            <action method="addJs">
+                <file>smart/test/bootstrap.min.js</file>
+            </action>
+            <action method="addJs">
+                <file>smart/test/dataTables.bootstrap.min.js</file>
+            </action>
+            <action method="addJs">
+                <file>smart/test/dataTables.foundation.min.js</file>
+            </action>
+            <action method="addJs">
+                <file>smart/test/dataTables.jqueryui.min.js</file>
+            </action>
+            <action method="addJs">
+                <file>smart/test/dataTables.responsive.js</file>
+            </action>
+            <action method="addJs">
+                <file>smart/test/jquery.dataTables.min.js</file>
+            </action>
+            <action method="addCss">
+                <file>smart/test/css/bootstrap.min.css</file>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/dataTables.bootstrap.min.css</name>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/dataTables.foundation.min.css</name>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/dataTables.jqueryui.min.css</name>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/font-awesome.min.css</name>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/jquery.dataTables.min.css</name>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/sb-admin-2.css</name>
+            </action>
+            <action method="addCss">
+                <name>smart/test/css/timeline.css</name>
+            </action>
+        </reference>
+        <reference name="root">
+            <!--<remove name="head"/>-->
+            <!--<remove name="header"/>-->
+            <!--<remove name="menu"/>-->
+            <remove name="notifications"/>
+            <remove name="footer"/>
+            <!--<block type="page/html" name="test.head" as="head"-->
+            <!--template="smart/test/include/head.phtml">-->
+            <!--</block>-->
+
+            <reference name="content">
+                <!--<block type="page/html" name="test.header" template="smart/test/include/header.phtml"/>-->
+                <!--&lt;!&ndash;<block type="page/html" name="test.sidebar" template="smart/test/include/config.phtml"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<block type="page/html" name="test.right" template="smart/test/include/right.phtml"/>&ndash;&gt;-->
+                <!--<block type="page/html" name="test.footer" template="smart/test/include/footer.phtml"/>-->
+                <block type="smart_test/adminhtml_test" name="test.index" template="smart/test/pages/save.phtml" >
+
+                </block>
+            </reference>
+        </reference>
+    </adminhtml_create_save>
 
 </layout>

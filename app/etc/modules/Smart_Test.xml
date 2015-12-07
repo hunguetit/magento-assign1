@@ -4,6 +4,6 @@
         <Smart_Test>
             <active>true</active>
             <codePool>local</codePool>
-                    </Smart_Test>
+        </Smart_Test>
     </modules>
 </config>

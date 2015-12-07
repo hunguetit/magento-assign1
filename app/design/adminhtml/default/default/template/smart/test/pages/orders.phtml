@@ -31,14 +31,14 @@
                             <?php $_odd = ''; ?>
                             <?php foreach ($products as $product){ ?>
                                 <tr class="odd gradeX">
-                                    <td><?php echo $product->entity_id ?></td>
+                                    <td><input name="productId[]" type="text" style="width: 30px;" value="<?php echo $product->entity_id ?>" readonly></td>
                                     <td><?php echo $product->name ?></td>
                                     <td><?php echo $product->type_id ?></td>
                                     <td class="center"><?php echo $product->sku ?></td>
                                     <td class="center"><?php echo $product->price ?></td>
                                     <?php foreach ($qtyOrders as $qtyOrder) { ?>
                                         <?php if ($qtyOrder['product_id'] == $product->entity_id) { ?>
-                                            <td class="center"><?php echo $qtyOrder['qty'] ?></td>
+                                            <td class="center"><input name="productQty[]" type="text" style="width: 30px;" value="<?php echo $qtyOrder['qty'] ?>" readonly></td>
                                             <td class="center"><?php echo $qtyOrder['qty']*$product->price ?>,000</td>
                                         <?php } ?>
                                     <?php }?>

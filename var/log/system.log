@@ -101,3 +101,100 @@
 2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
 2015-12-03T08:40:58+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
 2015-12-03T08:40:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
+2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
+2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
+2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
+2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
+2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
+2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
+2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
+2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
+2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
+2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
+2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
+2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
+2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
+2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
+2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
+2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
+2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
+2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
+2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined property: Smart_Test_Adminhtml_CreateController::$_paymentMethod  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 45
+2015-12-06T14:09:52+00:00 ERR (3): Notice: Undefined variable: customer  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml on line 1
+2015-12-06T15:04:21+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 190
+2015-12-06T15:04:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 190
+2015-12-06T15:04:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 190
+2015-12-06T15:08:30+00:00 ERR (3): Notice: Undefined variable: Id  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 182
+2015-12-06T15:08:30+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-06T15:08:30+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-06T15:08:30+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-06T15:09:41+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-06T15:09:41+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-06T15:09:41+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-06T15:14:11+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T15:14:11+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T15:14:11+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T15:14:18+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T15:33:31+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T15:33:31+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T15:33:31+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T15:33:37+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T15:33:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T15:33:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:16:54+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:16:54+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:16:54+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:17:26+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:17:26+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:17:26+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:18:29+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:18:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:18:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:18:35+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T16:18:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:18:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:21:07+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:21:07+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:21:07+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:21:11+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T16:21:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:21:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:23:34+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:23:34+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:23:34+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:23:56+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:23:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:23:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:24:02+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T16:24:03+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:24:03+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:24:47+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:24:47+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:24:47+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:25:20+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T16:25:22+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:25:22+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:26:56+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:26:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:26:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-06T16:27:03+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-06T16:27:05+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-06T16:27:05+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T02:52:29+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-07T02:52:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-07T02:52:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-07T02:52:33+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T02:52:36+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T02:52:36+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T02:54:50+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-07T02:54:50+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-07T02:54:50+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
+2015-12-07T02:54:53+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T02:54:55+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T02:54:55+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
