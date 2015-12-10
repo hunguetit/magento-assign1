@@ -44,8 +44,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
 
     public function getOrderCustomer(){
         $customer_id = Mage::registry ('customer_id');
-//        Zend_Debug::dump($customer_id);
-//        die();
 
         $customers = Mage::getResourceModel('customer/customer_collection')
             ->addNameToSelect()
@@ -72,7 +70,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             $resArr[$i]['label']=$values['name'];
             $i=$i+1;
         }
-        //return  $collection->getSelect();
         return $resArr;
     }
     public function getCountryId(){
@@ -80,8 +77,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             ->loadByStore()
             ->toOptionArray(true);
 
-//        Zend_Debug::dump($countryList);
-//        die();
         return $countryList;
     }
 
@@ -92,14 +87,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         } else {
             $search_name = $dataSearch['search'];
         }
-//        Zend_Debug::dump($search_id);
-//        Zend_Debug::dump($search_name);
-//        die();
-//        $productModel = Mage::getModel('catalog/product');
-//        $products = $productModel->load($search_id);
-//        Zend_Debug::dump($search_id);
-//        Zend_Debug::dump($search_name);
-//        die('Hung');
         $collection = Mage::getModel('catalog/product')
             ->getCollection()
             ->addAttributeToSelect('*')
@@ -114,15 +101,8 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
                 ),
             ));
         foreach ($collection as $product){
-            Zend_Debug::dump($product->name);
-            die('Hung');
         }
 
-//        Zend_Debug::dump($productModel);
-//        die();
-//        //$products = $productModel->load(905);
-//        Zend_Debug::dump($productModel->getData());
-//        die();
         return $collection;
     }
 
@@ -132,16 +112,12 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             ->setPageSize(5000) // limit number of results returned
             ->setCurPage(1);
 
-//        $products = Mage::getModel("catalog/product")
-//            ->getCollection();
-
         return $collection;
     }
     public function getOrder(){
         $orderModel = Mage::getResourceModel('sales/order_grid_collection')
                             ->addAttributeToFilter('shipping_name', array('like' => '%ber%'));
-       // var_dump($orderModel->getData());die();
-        //$orders = $orderModel->load();
+
         var_dump($orderModel->getData());die();
     }
 
@@ -149,16 +125,11 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         $orderQty = Mage::registry('orderQty');
 
         $orderId = Mage::registry('orderId');
-//        Zend_Debug::dump($orderId);
-//        die();
         $collection = Mage::getModel('catalog/product')
             ->getCollection()
             ->addAttributeToSelect('*')
             ->AddAttributeToFilter('entity_id', array ('in' => array ($orderId)));
-//        foreach ($collection as $product){
-//            Zend_Debug::dump($product->price);
-//            die();
-//        }
+
         $orderPrice = array();
         foreach ($collection as $product){
             $orderPrice[] = $product->price;
@@ -172,7 +143,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
     }
 
     public function getProductOrder(){
-//        $orderQty = Mage::registry('orderQty');
         $orderId = Mage::registry('orderId');
 
         $collection = Mage::getModel('catalog/product')
@@ -398,50 +368,5 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         }else{
             return array();
         }
-
-    }
-    public function getPostData(){
-        $dataPost = Mage::registry('dataPost');
-
-        return $dataPost;
-    }
-    protected function getRateRequestByOrder($orderId, $limitCarrier = null){
-        $order = Mage::getModel('sales/order')->load($orderId);
-        $address = $order->getShippingAddress();
-        $country = $address->getCountryId();
-        $items = $order->getAllItems();
-        $request = Mage::getModel('shipping/rate_request');
-        $request->setAllItems($items);
-        $request->setDestCountryId($address->getCountryId());
-        $request->setDestRegionId($address->getRegionId());
-        $request->setDestPostcode($address->getPostcode());
-        $request->setPackageValue($order->getBaseSubtotal());
-        $request->setPackageValueWithDiscount($order->getBaseSubtotalWithDiscount());
-        $request->setPackageWeight($order->getWeight());
-        $request->setFreeMethodWeight(0);
-        $request->setPackagePhysicalValue($order->getGrandTotal());
-        $request->setPackageQty($order->getItemQty());
-        $request->setStoreId($order->getStoreId());
-        $request->setWebsiteId($order->getWebsiteId());
-        $request->setBaseCurrency($order->getBaseCurrencyCode());
-        $request->setPackageCurrency($order->getOrderCurrencyCode());
-        $request->setLimitCarrier($limitCarrier);
-        $request->setBaseSubtotalInclTax($order->getBaseSubtotalInclTax());
-        $result = Mage::getModel('shipping/shipping')->collectRates($request)->getResult();
-        if ($result) {
-            $shippingRates = $result->getAllRates();
-            $allShippingRates = array();
-            foreach ($shippingRates as $key => $shippingRate){
-                $allShippingRates[] = $shippingRate->getData();
-            }
-            return $allShippingRates;
-        }else{
-            return array();
-        }
-    }
-
-    public function getItemsOrder($orderId){
-        $order = Mage::getModel('sales/order')->load($orderId);
-        $items = $order->getAllItems();
     }
 }
