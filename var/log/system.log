@@ -1,258 +1,352 @@
-2015-12-01T14:07:18+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-01T14:22:31+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-01T14:22:37+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 26
-2015-12-01T14:22:37+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 30
-2015-12-01T14:22:37+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-01T14:22:37+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-01T14:22:49+00:00 ERR (3): Notice: Undefined variable: search_name  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 89
-2015-12-01T14:22:52+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 26
-2015-12-01T14:22:52+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 30
-2015-12-01T14:22:52+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-01T14:22:52+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T04:42:14+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:03:31+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:03:37+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 26
-2015-12-02T07:03:37+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 30
-2015-12-02T07:03:37+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:03:37+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:04:28+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 26
-2015-12-02T07:04:28+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billing.phtml on line 30
-2015-12-02T07:04:28+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:04:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:05:58+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:05:58+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:07:11+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:07:11+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:07:32+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:07:32+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:07:50+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:07:50+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:08:15+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:08:15+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:08:39+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:08:39+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:08:52+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:08:52+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:09:02+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:09:02+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:09:13+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:09:13+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:21:03+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:25:20+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:27:29+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:28:39+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:28:42+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:28:42+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:29:25+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:29:25+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:32:35+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:32:35+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:33:01+00:00 ERR (3): Notice: Undefined variable: product  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:33:01+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 41
-2015-12-02T07:34:51+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php on line 33
-2015-12-02T07:34:51+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/TestController.php on line 39
-2015-12-02T07:40:12+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:40:38+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:44:56+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:45:27+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:46:28+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:46:41+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:47:03+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:47:37+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:48:32+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:51:09+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T07:52:37+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/page/html/pager.phtml
-2015-12-02T08:44:00+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 31
-2015-12-02T08:44:49+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 31
-2015-12-02T08:44:49+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 31
-2015-12-02T08:45:00+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 31
-2015-12-02T08:45:00+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/products.phtml on line 31
-2015-12-02T10:45:45+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
-2015-12-02T10:45:45+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
-2015-12-02T10:46:29+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
-2015-12-02T10:46:29+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
-2015-12-03T08:14:32+00:00 ERR (3): Notice: Undefined property: Mage_Catalog_Model_Resource_Product_Collection::$entity_id  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 6
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:25:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 35
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 36
-2015-12-03T08:27:59+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/orders.phtml on line 5
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 2  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 171
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 2  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
-2015-12-03T08:40:44+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 143
-2015-12-03T08:40:58+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
-2015-12-03T08:40:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
-2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
-2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
-2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
-2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
-2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
-2015-12-05T17:25:15+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
-2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
-2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
-2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
-2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
-2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
-2015-12-05T17:25:41+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
-2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
-2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
-2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
-2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
-2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
-2015-12-05T17:25:57+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 32
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 33
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 34
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 35
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 36
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined variable: dataPost  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 37
-2015-12-05T17:26:11+00:00 ERR (3): Notice: Undefined property: Smart_Test_Adminhtml_CreateController::$_paymentMethod  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 45
-2015-12-06T14:09:52+00:00 ERR (3): Notice: Undefined variable: customer  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/index.phtml on line 1
-2015-12-06T15:04:21+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 190
-2015-12-06T15:04:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 190
-2015-12-06T15:04:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 190
-2015-12-06T15:08:30+00:00 ERR (3): Notice: Undefined variable: Id  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 182
-2015-12-06T15:08:30+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
-2015-12-06T15:08:30+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
-2015-12-06T15:08:30+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
-2015-12-06T15:09:41+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
-2015-12-06T15:09:41+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
-2015-12-06T15:09:41+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
-2015-12-06T15:14:11+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T15:14:11+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T15:14:11+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T15:14:18+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T15:33:31+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T15:33:31+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T15:33:31+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T15:33:37+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T15:33:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T15:33:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:16:54+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:16:54+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:16:54+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:17:26+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:17:26+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:17:26+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:18:29+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:18:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:18:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:18:35+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T16:18:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:18:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:21:07+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:21:07+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:21:07+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:21:11+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T16:21:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:21:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:23:34+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:23:34+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:23:34+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:23:56+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:23:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:23:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:24:02+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T16:24:03+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:24:03+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:24:47+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:24:47+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:24:47+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:25:20+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T16:25:22+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:25:22+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:26:56+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:26:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:26:56+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-06T16:27:03+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-06T16:27:05+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-06T16:27:05+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T02:52:29+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T02:52:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T02:52:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T02:52:33+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T02:52:36+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T02:52:36+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T02:54:50+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T02:54:50+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T02:54:50+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T02:54:53+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T02:54:55+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T02:54:55+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T03:09:33+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T03:09:33+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T03:09:33+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T03:09:38+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T03:09:40+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T03:09:40+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T03:11:36+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T03:11:36+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T03:11:36+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T03:11:40+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T03:11:42+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T03:11:42+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:03:28+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:03:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:03:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:03:33+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T04:03:35+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:03:36+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:37:52+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:37:52+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:37:52+00:00 ERR (3): Notice: Undefined offset: 2  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:37:52+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:39:05+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:39:05+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:39:05+00:00 ERR (3): Notice: Undefined offset: 2  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:39:05+00:00 ERR (3): Notice: Undefined offset: 3  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 332
-2015-12-07T04:40:45+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:40:45+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:40:45+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:40:48+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T04:40:51+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:40:51+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:52:46+00:00 ERR (3): Notice: Undefined offset: 0  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 357
-2015-12-07T04:52:46+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 357
-2015-12-07T04:52:53+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 357
-2015-12-07T04:53:48+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 356
-2015-12-07T04:53:48+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:53:48+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:53:48+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:53:51+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T04:53:54+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:53:54+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:54:21+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 356
-2015-12-07T04:54:21+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/payment.phtml on line 23
-2015-12-07T04:54:49+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 356
-2015-12-07T04:54:49+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/payment.phtml on line 23
-2015-12-07T04:59:14+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:59:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:59:14+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T04:59:17+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T04:59:19+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T04:59:19+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T05:05:28+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T05:05:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T05:05:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 194
-2015-12-07T05:05:31+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
-2015-12-07T05:05:33+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
-2015-12-07T05:05:34+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T08:27:01+00:00 ERR (3): Notice: Undefined index: productQty  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 40
+2015-12-07T08:27:01+00:00 ERR (3): Notice: Undefined index: productId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 41
+2015-12-07T08:27:01+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 42
+2015-12-07T08:27:01+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 47
+2015-12-07T08:27:01+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:27:01+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:27:01+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:27:02+00:00 ERR (3): Notice: Undefined index: payment  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 249
+2015-12-07T08:28:12+00:00 ERR (3): Notice: Undefined index: productQty  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 40
+2015-12-07T08:28:12+00:00 ERR (3): Notice: Undefined index: productId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 41
+2015-12-07T08:28:12+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 42
+2015-12-07T08:28:12+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 47
+2015-12-07T08:28:13+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:28:13+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:28:13+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:28:13+00:00 ERR (3): Notice: Undefined index: payment  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 249
+2015-12-07T08:32:21+00:00 ERR (3): Notice: Undefined index: productQty  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 40
+2015-12-07T08:32:21+00:00 ERR (3): Notice: Undefined index: productId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 41
+2015-12-07T08:32:21+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 42
+2015-12-07T08:32:21+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 47
+2015-12-07T08:32:21+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:32:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:32:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:32:21+00:00 ERR (3): Notice: Undefined index: payment  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 249
+2015-12-07T08:33:58+00:00 ERR (3): Notice: Undefined index: productQty  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 40
+2015-12-07T08:33:58+00:00 ERR (3): Notice: Undefined index: productId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 41
+2015-12-07T08:33:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 42
+2015-12-07T08:33:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 47
+2015-12-07T08:33:58+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:33:58+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:33:58+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:33:58+00:00 ERR (3): Notice: Undefined index: payment  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 249
+2015-12-07T08:35:29+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:35:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:35:29+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:58:28+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:58:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:58:28+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T08:58:32+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T08:58:34+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T08:58:34+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:02:25+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:02:25+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:02:25+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:02:33+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T09:02:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:02:39+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:03:03+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:03:03+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:03:03+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:03:10+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T09:03:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:03:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:06:31+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:06:31+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:06:31+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:06:35+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T09:06:38+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:06:38+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: productQty  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 40
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: productId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 41
+2015-12-07T09:42:04+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 42
+2015-12-07T09:42:04+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 47
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: firstname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 208
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: lastname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 210
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: billing_city  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 217
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: billing_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 218
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: billing_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 219
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: billing_postcode  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 220
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: billing_telephone  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 221
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_firstname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 230
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_lastname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 232
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_city  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 239
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 240
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 241
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_postcode  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 242
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: shipping_telephone  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 243
+2015-12-07T09:42:04+00:00 ERR (3): Notice: Undefined index: payment  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 249
+2015-12-07T09:56:20+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:56:20+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:56:20+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_firstname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 230
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_lastname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 232
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_city  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 239
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 240
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 241
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_postcode  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 242
+2015-12-07T09:56:21+00:00 ERR (3): Notice: Undefined index: shipping_telephone  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 243
+2015-12-07T09:56:21+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T09:56:23+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T09:56:23+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_firstname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 230
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_lastname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 232
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_city  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 239
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 240
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 241
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_postcode  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 242
+2015-12-07T10:00:59+00:00 ERR (3): Notice: Undefined index: shipping_telephone  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 243
+2015-12-07T10:00:59+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T10:01:01+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T10:01:01+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 192
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 192
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 192
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_firstname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 226
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_lastname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 228
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_city  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 235
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 236
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_region  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 237
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_postcode  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 238
+2015-12-07T10:19:05+00:00 ERR (3): Notice: Undefined index: shipping_telephone  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 239
+2015-12-07T10:19:06+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-07T10:19:09+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T10:19:09+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-07T10:37:53+00:00 ERR (3): Notice: Undefined index: productAddQty  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 12
+2015-12-07T10:37:53+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
+2015-12-07T10:37:53+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 14
+2015-12-07T10:37:53+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
+2015-12-07T10:58:21+00:00 ERR (3): Notice: Undefined index: productAddId  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 13
+2015-12-07T10:58:21+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/code/local/Smart/Test/controllers/Adminhtml/CreateController.php on line 19
+2015-12-07T11:12:52+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/smart/test/pages/configOrder.phtml
+2015-12-09T06:01:46+00:00 ERR (3): Notice: Undefined variable: orderId  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 335
+2015-12-09T06:02:17+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 336
+2015-12-09T06:03:04+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 336
+2015-12-09T06:10:58+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 12
+2015-12-09T06:10:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 12
+2015-12-09T06:10:58+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 12
+2015-12-09T06:10:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 12
+2015-12-09T06:10:58+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:12:17+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 12
+2015-12-09T06:12:17+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 12
+2015-12-09T06:12:17+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 12
+2015-12-09T06:12:17+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 12
+2015-12-09T06:12:17+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:13:58+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 12
+2015-12-09T06:13:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 12
+2015-12-09T06:13:58+00:00 ERR (3): Warning: Missing argument 1 for Zend_Debug::dump(), called in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 3 and defined  in /var/www/html/magento-test/lib/Zend/Debug.php on line 75
+2015-12-09T06:13:58+00:00 ERR (3): Notice: Undefined variable: var  in /var/www/html/magento-test/lib/Zend/Debug.php on line 82
+2015-12-09T06:13:58+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 13
+2015-12-09T06:13:58+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 13
+2015-12-09T06:13:58+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:16:12+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 14
+2015-12-09T06:16:12+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/billingFixed.phtml on line 14
+2015-12-09T06:16:12+00:00 ERR (3): Warning: Missing argument 1 for Zend_Debug::dump(), called in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 3 and defined  in /var/www/html/magento-test/lib/Zend/Debug.php on line 75
+2015-12-09T06:16:12+00:00 ERR (3): Notice: Undefined variable: var  in /var/www/html/magento-test/lib/Zend/Debug.php on line 82
+2015-12-09T06:16:12+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 13
+2015-12-09T06:16:12+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 13
+2015-12-09T06:16:12+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:17:44+00:00 ERR (3): Warning: Missing argument 1 for Zend_Debug::dump(), called in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 3 and defined  in /var/www/html/magento-test/lib/Zend/Debug.php on line 75
+2015-12-09T06:17:44+00:00 ERR (3): Notice: Undefined variable: var  in /var/www/html/magento-test/lib/Zend/Debug.php on line 82
+2015-12-09T06:17:44+00:00 ERR (3): Notice: Undefined variable: customers  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 13
+2015-12-09T06:17:44+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shippingFixed.phtml on line 13
+2015-12-09T06:17:44+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:18:16+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:19:00+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:20:11+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:20:56+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:24:50+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:25:38+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:26:38+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:27:07+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:29:20+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:24+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:47+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 25
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 25
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 25
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 25
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 26
+2015-12-09T06:29:51+00:00 ERR (3): Notice: Undefined variable: paymentMethod  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 27
+2015-12-09T06:30:35+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:32:37+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 334
+2015-12-09T06:33:21+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:33:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:33:21+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:33:22+00:00 ERR (3): Notice: Undefined index: shipping_lastname  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 229
+2015-12-09T06:33:23+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:33:23+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:34:29+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 333
+2015-12-09T06:34:43+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:34:43+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:34:43+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:34:43+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:34:43+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:35:52+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:35:52+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:35:52+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:35:53+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:35:53+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:37:20+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:37:20+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:37:20+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:37:21+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:37:21+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:37:49+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:37:49+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:37:49+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:37:49+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:37:49+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:39:02+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:39:02+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:39:02+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:39:07+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T06:39:08+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:39:08+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:40:03+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:40:03+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:40:03+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T06:40:03+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T06:40:13+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T06:40:14+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T06:40:14+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:23:49+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 333
+2015-12-09T07:23:49+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:25:08+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 333
+2015-12-09T07:25:08+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:29:27+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 338
+2015-12-09T07:29:27+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:34:11+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 338
+2015-12-09T07:34:11+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:34:40+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 338
+2015-12-09T07:34:40+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:34:54+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:34:54+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:34:54+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:35:27+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 338
+2015-12-09T07:35:27+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:35:37+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:35:37+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:35:37+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:35:37+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:35:41+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:35:45+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:35:45+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:36:41+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:36:41+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:36:41+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:36:41+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:36:45+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:36:46+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:36:46+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:37:24+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 25
+2015-12-09T07:37:32+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:37:32+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:37:32+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:37:32+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:37:36+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:37:37+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:37:37+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:37:52+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento-test/app/design/adminhtml/default/default/template/smart/test/pages/shipment.phtml on line 25
+2015-12-09T07:37:58+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:37:58+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:37:58+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:37:58+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:38:03+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:38:05+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:38:05+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:38:27+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:38:27+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:38:27+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:38:27+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:38:33+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:38:33+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:38:33+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:41:29+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:41:29+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:41:40+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:41:40+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:41:40+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:41:41+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:41:46+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:41:50+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:41:50+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:41:58+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:41:58+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:42:08+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:42:08+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:42:08+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:42:08+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:42:10+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:42:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:42:13+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:43:00+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:43:00+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:43:13+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:43:13+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:43:13+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:43:13+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:43:18+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:43:20+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:43:20+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:43:55+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:43:55+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:44:18+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:44:18+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:44:18+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:44:19+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:44:24+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:44:24+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:44:24+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:44:30+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:44:30+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:45:52+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:46:22+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:47:26+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:47:26+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:50:07+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:50:07+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:50:22+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:50:22+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:50:35+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:50:35+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:52:47+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:53:34+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:53:57+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:54:13+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:55:16+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:55:16+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 344
+2015-12-09T07:56:12+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:56:12+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:56:32+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:56:32+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:56:48+00:00 ERR (3): Notice: Undefined variable: order  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:56:48+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:56:48+00:00 ERR (3): Notice: Trying to get property of non-object  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 193
+2015-12-09T07:56:48+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:56:54+00:00 ERR (3): Warning: iconv_substr() expects parameter 1 to be string, array given  in /var/www/html/magento-test/app/code/core/Mage/Core/Helper/String.php on line 103
+2015-12-09T07:56:56+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:56:56+00:00 ERR (3): Notice: Array to string conversion  in /var/www/html/magento-test/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 3074
+2015-12-09T07:57:43+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:57:43+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130
+2015-12-09T07:58:22+00:00 ERR (3): Notice: Undefined variable: items  in /var/www/html/magento-test/app/code/local/Smart/Test/Block/Adminhtml/Test.php on line 339
+2015-12-09T07:58:22+00:00 ERR (3): Notice: Undefined variable: freePackageValue  in /var/www/html/magento-test/app/code/core/Mage/Shipping/Model/Carrier/Tablerate.php on line 130

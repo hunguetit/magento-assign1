@@ -7,7 +7,14 @@ class Smart_Test_Adminhtml_TestController extends Mage_Adminhtml_Controller_Acti
 
     public function productAction(){
         $id = $this->getRequest()->getParam('id',false);
-        //Zend_Debug::dump($id);
+        Mage::register('customer_id', $id);
+
+        $this->loadLayout();
+        $this->renderLayout();
+    }
+
+    public function orderAction(){
+        $id = $this->getRequest()->getParam('id',false);
         Mage::register('customer_id', $id);
 
         $this->loadLayout();

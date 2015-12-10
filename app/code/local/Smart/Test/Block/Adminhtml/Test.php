@@ -186,18 +186,15 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
                 'qty'        => $productQty[$i],
             ];
         }
-
         $customerId = Mage::registry('customerId');
-        $dataPost = Mage::registry('dataPost');
+        $dataPost = Mage::registry('dataPostFixed');
 
         $quote = Mage::getModel('sales/quote')->setStoreId(1);
         $quote->setCurrency($order->AdjustmentAmount->currencyID);
         $customer = Mage::getModel('customer/customer')
             ->setWebsiteId(1)
             ->load($customerId);
-
         $quote->assignCustomer($customer);
-
         $quote->setSendConfirmation(1);
         foreach($productsOrder as $productOrder){
             $product=Mage::getModel('catalog/product')->load($productOrder['product_id']);
@@ -224,72 +221,62 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             'vat_id' => '',
             'save_in_address_book' => 1
         ));
-
         $shippingAddress = $quote->getShippingAddress()->addData(array(
             'customer_address_id' => '',
             'prefix' => '',
-            'firstname' => $dataPost['firstname'],
+            'firstname' => $dataPost['shipping_firstname'],
             'middlename' => '',
-            'lastname' =>$dataPost['lastname'],
+            'lastname' =>$dataPost['shipping_lastname'],
             'suffix' => '',
             'company' =>'',
             'street' => array(
                 '0' => 'Noida',
                 '1' => 'Sector 64'
             ),
-            'city' => $dataPost['billing_city'],
+            'city' => $dataPost['shipping_city'],
             'country_id' => 'IN',
-            'region' => $dataPost['billing_region'],
-            'postcode' => $dataPost['billing_postcode'],
-            'telephone' => $dataPost['billing_telephone'],
+            'region' => $dataPost['shipping_region'],
+            'postcode' => $dataPost['shipping_postcode'],
+            'telephone' => $dataPost['shipping_telephone'],
             'fax' => 'gghlhu',
             'vat_id' => '',
             'save_in_address_book' => 1
         ));
 
-        if($shipprice==0){
-            $shipmethod='freeshipping_freeshipping';
-        }
+        $paymentMethod = $dataPost['payment'];
+        $shipping_method = $dataPost['shipment'].'_'.$dataPost['shipment'];
         // Collect Rates and Set Shipping & Payment Method
         $shippingAddress->setCollectShippingRates(true)
             ->collectShippingRates()
-            ->setShippingMethod('freeshipping_freeshipping')
-            ->setPaymentMethod('cashondelivery');
+            ->setShippingMethod($shipping_method)
+            ->setPaymentMethod($paymentMethod);
         // Set Sales Order Payment
-        $quote->getPayment()->importData(array('method' => 'cashondelivery'));
+        $quote->getPayment()->importData(array('method' => $paymentMethod));
         // Collect Totals & Save Quote
         $quote->collectTotals()->save();
-
         // Create Order From Quote
         $service = Mage::getModel('sales/service_quote', $quote);
         $service->submitAll();
         $increment_id = $service->getOrder()->getRealOrderId();
-
         $quote = $customer = $service = null;
         Mage::getSingleton('adminhtml/session')->addSuccess($this->__('Create Order Success.'));
-
         $order = Mage::getModel("sales/order")->loadByIncrementId($increment_id);
         try {
             if(!$order->canInvoice()) {
                 Mage::throwException(Mage::helper('core')->__('Cannot create an invoice.'));
             }
-
             $invoice = Mage::getModel('sales/service_order', $order)->prepareInvoice();
-
             if (!$invoice->getTotalQty()) {
                 Mage::throwException(Mage::helper('core')->__('Cannot create an invoice without products.'));
             }
-
             $invoice->setRequestedCaptureCase(Mage_Sales_Model_Order_Invoice::CAPTURE_ONLINE);
             $invoice->register();
             $transactionSave = Mage::getModel('core/resource_transaction')
                 ->addObject($invoice)
                 ->addObject($invoice->getOrder());
-
             $transactionSave->save();
         }
         catch (Mage_Core_Exception $e) {
-
         }
         $qty=array();
         foreach($order->getAllItems() as $eachOrderItem){
@@ -299,12 +286,10 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
                 - $eachOrderItem->getQtyRefunded()
                 - $eachOrderItem->getQtyCanceled();
             $qty[$eachOrderItem->getId()] = $Itemqty;
-
         }
         $email=true;
         $includeComment=true;
         $comment="test Shipment";
-
         if ($order->canShip()) {
             $shipment = $order->prepareShipment($qty);
             if ($shipment) {
@@ -324,26 +309,9 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         }
         Mage::getSingleton('adminhtml/session')->addSuccess($this->__('The order created success.'));
     }
-    public function getPaymentMethod(){
-//        $paymentMethod = array();
-//        $allActivePaymentMethods = Mage::getModel('payment/config')->getActiveMethods();
-//        foreach ($allActivePaymentMethods as $allActivePaymentMethod) {
-////            Zend_Debug::dump($allActivePaymentMethod);
-////            die('Hung');
-//            $paymentMethod[] = [
-//                'code'  => $allActivePaymentMethod->getCode(),
-//                'title' => $allActivePaymentMethod->getCode(),
-//            ];
-//        }
-//
-//        Zend_Debug::dump($paymentMethod);
-//        die('Hung');
 
+    public function getPaymentMethod(){
         $payments = Mage::getSingleton('payment/config')->getActiveMethods();
-//        $methods = array(array(
-//            'value'=>'',
-//            'label'=>Mage::helper('adminhtml')->__('--Please Select--')
-//        ));
         $paymentMethods = array();
 
         foreach ($payments as $paymentCode=>$paymentModel) {
@@ -356,19 +324,103 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         return $paymentMethods;
     }
 
-    public function getShipmentMethod(){
-        $methods = Mage::getSingleton('shipping/config')->getActiveCarriers();
-        $shipMethods = array();
-        foreach ($methods as $shippingCode=>$shippingModel)
-        {
-            $shippingTitle = Mage::getStoreConfig('carriers/'.$shippingCode.'/title');
-            $shipMethods[$shippingCode] = array(
-                'label'   => $shippingTitle,
-                'code' => $shippingCode,
-            );
+    public function getShipmentMethod()
+    {
+        $dataPost = Mage::registry('dataPost');
+        $orderQty = Mage::registry('orderQty');
+        $item = 0;
+        for ($i=0; $i<count($orderQty); $i++){
+            $item += $orderQty[$i];
         }
-        Zend_Debug::dump($shipMethods);
+
+        $total = $this->getTotal();
+
+        $request = Mage::getModel('shipping/rate_request');
+        $request->setAllItems($items);
+        $request->setDestCountryId('IN');
+        $request->setDestRegion($dataPost['shipping_region']);
+        $request->setDestPostcode($dataPost['shipping_postcode']);
+        $request->setPackageValue($total);
+        $request->setFreeMethodWeight(0);
+        $request->setPackagePhysicalValue($total);
+        $request->setStoreId(1);
+        $request->setWebsiteId(1);
+        $request->setLimitCarrier(null);
+        $result = Mage::getModel('shipping/shipping')->collectRates($request)->getResult();
+
+        if ($result) {
+            $shippingRates = $result->getAllRates();
+            $allShippingRates = array();
+            foreach ($shippingRates as $key => $shippingRate) {
+                $allShippingRates[] = $shippingRate->getData();
+            }
+            return $allShippingRates;
+        }else{
+            return array();
+        }
+
+
+
+        //$customer_id = Mage::registry ('customer_id');
+
+
+//        $methods = Mage::getSingleton('shipping/config')->getActiveCarriers();
+//        $shipMethods = array();
+//        foreach ($methods as $shippingCode=>$shippingModel)
+//        {
+//            $shippingTitle = Mage::getStoreConfig('carriers/'.$shippingCode.'/title');
+//            $shipMethods[$shippingCode] = array(
+//                'label'   => $shippingTitle,
+//                'code' => $shippingCode,
+//            );
+//        }
+//        Zend_Debug::dump($shipMethods);
 //        die('Hung');
-        return $shipMethods;
+
+        //$customer_id = $this->_getCustomerId();
+//        $this->getTotal();
+
+        //$order = Mage::getModel('sales/order')->loadBy
+
+        //return $shipMethods;
+    }
+    public function getPostData(){
+        $dataPost = Mage::registry('dataPost');
+
+        return $dataPost;
+    }
+    protected function getRateRequestByOrder($orderId, $limitCarrier = null){
+        $order = Mage::getModel('sales/order')->load($orderId);
+        $address = $order->getShippingAddress();
+        $country = $address->getCountryId();
+        $items = $order->getAllItems();
+        $request = Mage::getModel('shipping/rate_request');
+        $request->setAllItems($items);
+        $request->setDestCountryId($address->getCountryId());
+        $request->setDestRegionId($address->getRegionId());
+        $request->setDestPostcode($address->getPostcode());
+        $request->setPackageValue($order->getBaseSubtotal());
+        $request->setPackageValueWithDiscount($order->getBaseSubtotalWithDiscount());
+        $request->setPackageWeight($order->getWeight());
+        $request->setFreeMethodWeight(0);
+        $request->setPackagePhysicalValue($order->getGrandTotal());
+        $request->setPackageQty($order->getItemQty());
+        $request->setStoreId($order->getStoreId());
+        $request->setWebsiteId($order->getWebsiteId());
+        $request->setBaseCurrency($order->getBaseCurrencyCode());
+        $request->setPackageCurrency($order->getOrderCurrencyCode());
+        $request->setLimitCarrier($limitCarrier);
+        $request->setBaseSubtotalInclTax($order->getBaseSubtotalInclTax());
+        $result = Mage::getModel('shipping/shipping')->collectRates($request)->getResult();
+        if ($result) {
+            $shippingRates = $result->getAllRates();
+            $allShippingRates = array();
+            foreach ($shippingRates as $key => $shippingRate){
+                $allShippingRates[] = $shippingRate->getData();
+            }
+            return $allShippingRates;
+        }else{
+            return array();
+        }
     }
 }

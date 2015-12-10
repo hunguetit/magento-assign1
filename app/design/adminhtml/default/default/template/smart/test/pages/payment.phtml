@@ -21,7 +21,7 @@ $paymentMethods = $this->getPaymentMethod();
                         <?php $_odd = ''; ?>
                         <?php foreach ($paymentMethods as $paymentMethod){ ?>
                             <tr class="odd gradeX">
-                                <td><input name="payment" type="radio" value="<?php echo $paymentMethod['code'] ?>" ></td>
+                                <td><input name="payment" type="radio" value="<?php echo $paymentMethod['code'] ?>" required></td>
                                 <td><?php echo $paymentMethod['label'] ?></td>
                         <?php }?>
                             </tr>

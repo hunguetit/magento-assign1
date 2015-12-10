@@ -25,7 +25,6 @@
 ////}
 ////die();
 //?>
-
 <?php $products = $this->getProduct(); ?>
 <?php $customers = $this->getOrderCustomer(); ?>
 <?php foreach ($customers as $customer){ ?>
@@ -40,8 +39,7 @@
             <!-- /.panel-heading -->
             <div class="panel-body">
                 <div class="dataTable_wrapper">
-                    <form action="<?php echo Mage::helper("adminhtml")->getUrl('*/create/index', array('customer_id'=> $customer->getData('entity_id'))); ?>" method="POST">
-                        <?php echo $this->getBlockHtml('formkey')?>
+
                     <table class="table table-striped table-bordered table-hover" id="products_info">
                         <thead>
                         <tr>
@@ -69,8 +67,6 @@
                         <?php } ?>
                         </tbody>
                     </table>
-                        <button class="btn btn-default" type="submit" style="float: right;">Select Product</button>
-                    </form>
                 </div>
             </div>
             <!-- /.panel-body -->

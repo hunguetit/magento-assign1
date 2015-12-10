@@ -29,7 +29,7 @@
                             <td><?php echo $customer->getData('name') ?></td>
                             <td><?php echo $customer->getData('email') ?></td>
                             <td class="center"><?php echo $customer->getData('billing_telephone') ?></td>
-                            <td class="center"><a href="<?php echo Mage::helper("adminhtml")->getUrl('*/*/product', array('id'=> $customer->getData('entity_id'))); ?>" target="_blank" class="report"><?php echo $this->__("Create Order") ?></a></td>
+                            <td class="center"><a href="<?php echo Mage::helper("adminhtml")->getUrl('*/*/order', array('id'=> $customer->getData('entity_id'))); ?>" target="_blank" class="report"><?php echo $this->__("Create Order") ?></a></td>
                         </tr>
                         <?php } ?>
                         </tbody>

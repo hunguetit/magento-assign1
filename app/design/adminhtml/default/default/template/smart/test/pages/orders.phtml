@@ -1,6 +1,7 @@
 <?php $products = $this->getProductOrder(); ?>
 <?php $customers = $this->getOrderCustomer(); ?>
 <?php $qtyOrders = $this->getQtyOrder(); ?>
+<?php $total = $this->getTotal(); ?>
 <?php //foreach ($qtyOrders as $qtyOrder) {
 //    Zend_Debug::dump($qtyOrder['qty']);
 //    die();
@@ -44,6 +45,15 @@
                                     <?php }?>
                                 </tr>
                             <?php }?>
+                            <tr class="odd gradeX">
+                                <td type="hidden" value="999999999"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><b>Total</b></td>
+                                <td><?php echo $total ?>,000</td>
+                            </tr>
                             </tbody>
                         </table>
                 </div>

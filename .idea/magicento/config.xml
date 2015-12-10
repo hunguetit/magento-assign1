@@ -7843,7 +7843,7 @@ T: {{var telephone}}
                             <children>
                                 <smart_test module="smart_test">
                                     <title>Managed Smart Test</title>
-                                    <action>adminhtml/smart_test</action>
+                                    <action>adminhtml/test</action>
                                 </smart_test>
                             </children>
                         </sales>

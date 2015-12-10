@@ -1,5 +1,7 @@
 <?php
 $shipmentMethods = $this->getShipmentMethod();
+//Zend_Debug::dump($shipmentMethods);
+//die();
 ?>
 
     <div class="col-lg-6">
@@ -7,11 +9,28 @@ $shipmentMethods = $this->getShipmentMethod();
             <div class="panel-heading">
                 <h4><?php echo $this->__("Shipment Method") ?></h4>
             </div>
-            <button>Get Shipment Method</button>
             <!-- /.panel-heading -->
             <div class="panel-body">
                 <div class="dataTable_wrapper">
-
+                    <table class="table table-striped table-bordered table-hover" id="products_info">
+                        <thead>
+                        <tr>
+                            <th style="width: 50px;"><?php echo $this->__("Select") ?></th>
+                            <th><?php echo $this->__("Shipping Title") ?></th>
+                            <th><?php echo $this->__("Cost") ?></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php $_odd = ''; ?>
+                        <?php foreach ($shipmentMethods as $shipmentMethod){ ?>
+                        <tr class="odd gradeX">
+                            <td><input name="shipment" type="radio" value="<?php echo $shipmentMethod['carrier'] ?>" required></td>
+                            <td><?php echo $shipmentMethod['carrier_title'] ?></td>
+                            <td><?php echo $shipmentMethod['cost'] ?></td>
+                            <?php }?>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
             <!-- /.panel-body -->

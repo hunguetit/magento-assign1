@@ -70,7 +70,7 @@
             </reference>
         </reference>
     </adminhtml_test_index>
-    <adminhtml_test_product>
+    <adminhtml_test_order>
         <reference name="head">
             <action method="addJs">
                 <file>smart/test/jquery.min.js</file>
@@ -139,10 +139,14 @@
                    <!--template="smart/test/pages/shipping.phtml"/>-->
             <!--<block type="smart_test/adminhtml_test" name="test.search"-->
                    <!--template="smart/test/pages/search.phtml"/>-->
-            <block type="smart_test/adminhtml_test" name="test.products"
-                   template="smart/test/pages/products.phtml"/>
+            <block type="smart_test/adminhtml_test" name="test.order" template="smart/test/pages/order.phtml" >
+                <block type="smart_test/adminhtml_test" name="test.billing" template="smart/test/pages/billing.phtml"/>
+                <block type="smart_test/adminhtml_test" name="test.shipping" template="smart/test/pages/shipping.phtml"/>
+                <block type="smart_test/adminhtml_test" name="test.products" template="smart/test/pages/products.phtml"/>
+            </block>
+
         </reference>
-    </adminhtml_test_product>
+    </adminhtml_test_order>
     <adminhtml_test_search>
         <reference name="root">
             <!--<remove name="head"/>-->
@@ -246,12 +250,16 @@
                 <!--&lt;!&ndash;<block type="page/html" name="test.sidebar" template="smart/test/include/config.phtml"/>&ndash;&gt;-->
                 <!--&lt;!&ndash;<block type="page/html" name="test.right" template="smart/test/include/right.phtml"/>&ndash;&gt;-->
                 <!--<block type="page/html" name="test.footer" template="smart/test/include/footer.phtml"/>-->
-                <block type="smart_test/adminhtml_test" name="test.index" template="smart/test/pages/index.phtml" >
-                    <block type="smart_test/adminhtml_test" name="test.billing" template="smart/test/pages/billing.phtml"/>
-                    <block type="smart_test/adminhtml_test" name="test.shipping" template="smart/test/pages/shipping.phtml"/>
+                <block type="smart_test/adminhtml_test" name="test.index" template="smart/test/pages/index.phtml">
+                    <block type="smart_test/adminhtml_test" name="test.billingFixed"
+                           template="smart/test/pages/billingFixed.phtml"/>
+                    <block type="smart_test/adminhtml_test" name="test.shippingFixed"
+                           template="smart/test/pages/shippingFixed.phtml"/>
                     <block type="smart_test/adminhtml_test" name="test.order" template="smart/test/pages/orders.phtml"/>
-                    <block type="smart_test/adminhtml_test" name="test.payment" template="smart/test/pages/payment.phtml"/>
-                    <block type="smart_test/adminhtml_test" name="test.shipment" template="smart/test/pages/shipment.phtml"/>
+                    <block type="smart_test/adminhtml_test" name="test.payment"
+                           template="smart/test/pages/payment.phtml"/>
+                    <block type="smart_test/adminhtml_test" name="test.shipment"
+                           template="smart/test/pages/shipment.phtml"/>
                     <block type="smart_test/adminhtml_test" name="test.total" template="smart/test/pages/total.phtml"/>
                 </block>
             </reference>

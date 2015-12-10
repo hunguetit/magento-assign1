@@ -1,0 +1,13 @@
+<form id="edit_form" action="<?php echo Mage::helper("adminhtml")->getUrl('*/create/index'); ?>" method="post" aria-readonly="true">
+    <?php echo $this->getBlockHtml('formkey') ?>
+    <div class="billing_address">
+        <?php echo $this->getChildHtml('test.billing') ?>
+    </div>
+    <div class="shipping_address">
+        <?php echo $this->getChildHtml('test.shipping') ?>
+    </div>
+    <div class="products">
+        <?php echo $this->getChildHtml('test.products') ?>
+    </div>
+    <button class="btn btn-default" type="submit" style="float: right;">SUBMIT</button>
+</form>
