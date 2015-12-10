@@ -25,9 +25,10 @@ $shipmentMethods = $this->getShipmentMethod();
                         <?php foreach ($shipmentMethods as $shipmentMethod){ ?>
                         <tr class="odd gradeX">
                             <td><input name="shipment" type="radio" value="<?php echo $shipmentMethod['carrier'] ?>" required></td>
-                            <td><?php echo $shipmentMethod['carrier_title'] ?></td>
-                            <td><?php echo $shipmentMethod['cost'] ?></td>
+                            <td><?php echo $shipmentMethod['carrier_title'] ?> (<?php echo $shipmentMethod['method'] ?>)</td>
+                            <td>$ <?php echo number_format($shipmentMethod['cost'] ,0, '.',',') ?>.000</td>
                             <?php }?>
+
                         </tr>
                         </tbody>
                     </table>

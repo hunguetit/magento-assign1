@@ -1,5 +1,7 @@
 <?php
 $dataPost = $this->getPostData();
+$countries = $this->getCountryId();
+$regions = $this->getRegionId($dataPost['shipping_country_id']);
 ?>
 <div class="col-lg-6">
     <div class="panel panel-default">
@@ -9,22 +11,37 @@ $dataPost = $this->getPostData();
         <div class="panel-body">
             <div class="row">
                 <div class="col-lg-8" >
-                        <div class="form-group">
-                            <label>First Name *</label>
-                            <input type="text" class="form-control" value="<?php echo $dataPost['shipping_firstname'] ?>" name="shipping_firstname" readonly>
-                        </div>
-                        <div class="form-group">
-                            <label>Last Name *</label>
-                            <input type="text" class="form-control" value="<?php echo $dataPost['shipping_lastname'] ?>" name="shipping_lastname" readonly>
-                        </div>
-                        <div class="form-group">
-                            <label>City *</label>
-                            <input type="text" class="form-control" value="<?php echo $dataPost['shipping_city'] ?>" name="shipping_city" readonly>
-                        </div>
-                        <div class="form-group">
-                            <label>Country *</label>
-                            <input type="text" class="form-control" value="<?php echo $dataPost['shipping_region'] ?>" name="shipping_region" readonly>
-                        </div>
+                    <div class="form-group">
+                        <label>First Name *</label>
+                        <input type="text" class="form-control" value="<?php echo $dataPost['shipping_firstname'] ?>" name="shipping_firstname" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name *</label>
+                        <input type="text" class="form-control" value="<?php echo $dataPost['shipping_lastname'] ?>" name="shipping_lastname" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Street *</label>
+                        <input type="text" class="form-control" value="<?php echo $dataPost['shipping_street'] ?>" name="shipping_street" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>City *</label>
+                        <input type="text" class="form-control" value="<?php echo $dataPost['shipping_city'] ?>" name="shipping_city" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Country *</label>
+                        <?php
+                        foreach ($countries as $country){ ?>
+                            <?php if ($dataPost['shipping_country_id'] == $country['value']) { ?>
+                                <input type="hidden" type="text" class="form-control" value="<?php echo $country['value'] ?>" name="shipping_country_id" hidden>
+                                <input type="text" class="form-control" value="<?php echo $country['label'] ?>" name="shipping_country" readonly>
+                            <?php } ?>
+                        <?php }
+                        ?>
+                    </div>
+                    <div class="form-group">
+                        <label>State/Province *</label>
+                        <input type="text" class="form-control" value="<?php echo $dataPost['shipping_region'] ?>" name="shipping_region" readonly>
+                    </div>
                         <div class="form-group">
                             <label>Zip/Postal Code *</label>
                             <input type="text" class="form-control" value="<?php echo $dataPost['shipping_postcode'] ?>" name="shipping_postcode" readonly>

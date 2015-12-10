@@ -1123,7 +1123,7 @@ class Mage_Sales_Model_Quote extends Mage_Core_Model_Abstract
 
         if (!$params) {
             $params = new Varien_Object();
-        } else if (is_array($params)) {
+        } else if (is_array($params)){
             $params = new Varien_Object($params);
         }
         $params->setCurrentConfig($item->getBuyRequest());

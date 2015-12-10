@@ -1490,7 +1490,6 @@ class Mage_Adminhtml_Model_Sales_Order_Create extends Varien_Object implements M
         } else {
             $quote->setCustomerId(true);
         }
-
         return $this;
     }
 

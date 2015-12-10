@@ -402,7 +402,7 @@ class Mage_Adminhtml_Sales_Order_CreateController extends Mage_Adminhtml_Control
 
         if ($block) {
             $blocks = explode(',', $block);
-            if ($asJson && !in_array('message', $blocks)) {
+            if ($asJson && !in_array('message', $blocks)){
                 $blocks[] = 'message';
             }
 

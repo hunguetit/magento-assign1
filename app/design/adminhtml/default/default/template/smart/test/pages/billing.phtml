@@ -1,5 +1,11 @@
 <?php
 $customers = $this->getOrderCustomer();
+
+$countries = $this->getCountryId();
+
+foreach ($customers as $customer) {
+    $regions = $this->getRegionId($customer->getData('billing_country_id'));
+}
 ?>
     <div class="col-lg-6">
         <div class="panel panel-default">
@@ -19,13 +25,42 @@ $customers = $this->getOrderCustomer();
                                 <input type="text" class="form-control" value="<?php echo $customer->getData('lastname') ?>" name="lastname">
                             </div>
                             <div class="form-group">
+                                <label>Street *</label>
+                                <input type="text" class="form-control" value="<?php echo $customer->getData('billing_street') ?>" name="billing_street">
+                            </div>
+                            <div class="form-group">
                                 <label>City *</label>
                                 <input type="text" class="form-control" value="<?php echo $customer->getData('billing_city') ?>" name="billing_city">
                             </div>
                             <div class="form-group">
                                 <label>Country *</label>
-                                <input type="text" class="form-control" value="<?php echo $customer->getData('billing_region') ?>" name="billing_region">
+                                <select class="form-control" name="billing_country_id" id="billing_country_id">
+                                    <?php
+                                    foreach ($countries as $country){ ?>
+                                        <?php if ($customer->getData('billing_country_id') == $country['value']) { ?>
+                                            <option value="<?php echo $country['value'] ?>" selected><?php echo $country['label'] ?></option>
+                                        <?php } else { ?>
+                                            <option value="<?php echo $country['value'] ?>"><?php echo $country['label'] ?></option>
+                                        <?php } ?>
+                                    <?php }
+                                    ?>
+                                </select>
                             </div>
+                            <div class="form-group">
+                                <label>State/Province *</label>
+                                <select class="form-control" name="billing_region" id="billing_region">
+                                    <?php
+                                    foreach ($regions as $region){ ?>
+                                        <?php if ($customer->getData('billing_region') == $region['value']) { ?>
+                                            <option value="<?php echo $region['value'] ?>" selected><?php echo $region['label'] ?></option>
+                                        <?php } else { ?>
+                                            <option value="<?php echo $region['value'] ?>"><?php echo $region['label'] ?></option>
+                                        <?php } ?>
+                                    <?php }
+                                    ?>
+                                </select>
+                            </div>
+
                             <div class="form-group">
                                 <label>Zip/Postal Code *</label>
                                 <input type="text" class="form-control" value="<?php echo $customer->getData('billing_postcode') ?>" name="billing_postcode">
@@ -34,7 +69,6 @@ $customers = $this->getOrderCustomer();
                                 <label>Telephone *</label>
                                 <input type="text" class="form-control" value="<?php echo $customer->getData('billing_telephone') ?>" name="billing_telephone">
                             </div>
-
                         <?php } ?>
                     </div>
                 </div>

@@ -50,15 +50,39 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         $customers = Mage::getResourceModel('customer/customer_collection')
             ->addNameToSelect()
             ->addAttributeToSelect('*')
+            ->joinAttribute('billing_street', 'customer_address/street', 'default_billing', null, 'left')
             ->joinAttribute('billing_postcode', 'customer_address/postcode', 'default_billing', null, 'left')
             ->joinAttribute('billing_city', 'customer_address/city', 'default_billing', null, 'left')
             ->joinAttribute('billing_telephone', 'customer_address/telephone', 'default_billing', null, 'left')
             ->joinAttribute('billing_region', 'customer_address/region', 'default_billing', null, 'left')
             ->joinAttribute('billing_country_id', 'customer_address/country_id', 'default_billing', null, 'left')
             ->addAttributeToFilter('entity_id', $customer_id);
-//        Zend_Debug::dump($customers->getData());
-//        die();
+
         return ($customers);
+    }
+    public function getRegionId($country_id){
+        $collection = Mage::getModel('directory/region_api')->items($country_id);
+        Mage::log($collection);
+        $i=1;
+
+        $resArr = array();
+        foreach ($collection as $values)
+        {
+            $resArr[$i]['value']=$values['name'];
+            $resArr[$i]['label']=$values['name'];
+            $i=$i+1;
+        }
+        //return  $collection->getSelect();
+        return $resArr;
+    }
+    public function getCountryId(){
+        $countryList = Mage::getModel('directory/country')->getResourceCollection()
+            ->loadByStore()
+            ->toOptionArray(true);
+
+//        Zend_Debug::dump($countryList);
+//        die();
+        return $countryList;
     }
 
     public function getProductSearch(){
@@ -176,7 +200,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
     }
 
     public function saveOrder(){
-        $shipprice = 0;
         $productQty = Mage::registry('productOrderQty');
         $productsId = Mage::registry('productOrderId');
         $productsOrder = array();
@@ -190,6 +213,7 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         $dataPost = Mage::registry('dataPostFixed');
 
         $quote = Mage::getModel('sales/quote')->setStoreId(1);
+
         $quote->setCurrency($order->AdjustmentAmount->currencyID);
         $customer = Mage::getModel('customer/customer')
             ->setWebsiteId(1)
@@ -208,16 +232,17 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             'lastname' =>$dataPost['lastname'],
             'suffix' => '',
             'company' =>'',
-            'street' => array(
-                '0' => 'Noida',
-                '1' => 'Sector 64'
-            ),
+            'street' => array($dataPost['billing_street'],''),
             'city' => $dataPost['billing_city'],
-            'country_id' => 'IN',
+            'country_id' => $dataPost['billing_country_id'],
             'region' => $dataPost['billing_region'],
+            'region_id' => $dataPost['billing_region'],
             'postcode' => $dataPost['billing_postcode'],
             'telephone' => $dataPost['billing_telephone'],
-            'fax' => 'gghlhu',
+            'state/province' =>'NULL',
+            'state' =>'NULL',
+            'province' =>'NULL',
+            'fax' => 'NONE',
             'vat_id' => '',
             'save_in_address_book' => 1
         ));
@@ -229,18 +254,19 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             'lastname' =>$dataPost['shipping_lastname'],
             'suffix' => '',
             'company' =>'',
-            'street' => array(
-                '0' => 'Noida',
-                '1' => 'Sector 64'
-            ),
+            'street' => array($dataPost['shipping_street'],''),
             'city' => $dataPost['shipping_city'],
-            'country_id' => 'IN',
+            'country_id' => $dataPost['shipping_country_id'],
             'region' => $dataPost['shipping_region'],
+            'region_id' => $dataPost['shipping_region'],
             'postcode' => $dataPost['shipping_postcode'],
             'telephone' => $dataPost['shipping_telephone'],
-            'fax' => 'gghlhu',
+            'fax' => 'NONE',
             'vat_id' => '',
-            'save_in_address_book' => 1
+            'save_in_address_book' => 1,
+            'state/province' =>'NULL',
+            'state' =>'NULL',
+            'province' =>'NULL',
         ));
 
         $paymentMethod = $dataPost['payment'];
@@ -276,7 +302,7 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
                 ->addObject($invoice->getOrder());
             $transactionSave->save();
         }
-        catch (Mage_Core_Exception $e) {
+        catch (Mage_Core_Exception $e){
         }
         $qty=array();
         foreach($order->getAllItems() as $eachOrderItem){
@@ -292,7 +318,7 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         $comment="test Shipment";
         if ($order->canShip()) {
             $shipment = $order->prepareShipment($qty);
-            if ($shipment) {
+            if ($shipment){
                 $shipment->register();
                 $shipment->addComment($comment, $email && $includeComment);
                 $shipment->getOrder()->setIsInProcess(true);
@@ -302,7 +328,7 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
                         ->addObject($shipment->getOrder())
                         ->save();
                     $shipment->sendEmail($email, ($includeComment ? $comment : ''));
-                } catch (Mage_Core_Exception $e) {
+                } catch (Mage_Core_Exception $e){
                     var_dump($e);
                 }
             }
@@ -328,30 +354,44 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
     {
         $dataPost = Mage::registry('dataPost');
         $orderQty = Mage::registry('orderQty');
-        $item = 0;
+        $orderId = Mage::registry('orderId');
+        $productsOrder = array();
+        for ($i=0; $i<count($orderId); $i++){
+            $productsOrder[] = [
+                'product_id' => $orderId[$i],
+                'qty'        => $orderQty[$i],
+            ];
+        }
+        $itemQty = 0;
         for ($i=0; $i<count($orderQty); $i++){
-            $item += $orderQty[$i];
+            $itemQty += $orderQty[$i];
+        }
+        $total = $this->getTotal();
+        $quote = Mage::getModel('sales/quote')->setStoreId(1);
+        foreach($productsOrder as $productOrder){
+            $product=Mage::getModel('catalog/product')->load($productOrder['product_id']);
+            $quote->addProduct($product,new Varien_Object(array('qty' => $productOrder['qty'])));
         }
 
-        $total = $this->getTotal();
-
         $request = Mage::getModel('shipping/rate_request');
-        $request->setAllItems($items);
-        $request->setDestCountryId('IN');
-        $request->setDestRegion($dataPost['shipping_region']);
+        $request->setAllItems($quote->getAllItems());
+        $request->setDestCountryId($dataPost['shipping_country_id']);
+        $request->setDestRegionId($dataPost['shipping_region']);
         $request->setDestPostcode($dataPost['shipping_postcode']);
         $request->setPackageValue($total);
+        $request->setPackageValueWithDiscount($total);
         $request->setFreeMethodWeight(0);
         $request->setPackagePhysicalValue($total);
+        $request->setPackageQty($itemQty);
         $request->setStoreId(1);
         $request->setWebsiteId(1);
         $request->setLimitCarrier(null);
         $result = Mage::getModel('shipping/shipping')->collectRates($request)->getResult();
 
-        if ($result) {
+        if ($result){
             $shippingRates = $result->getAllRates();
             $allShippingRates = array();
-            foreach ($shippingRates as $key => $shippingRate) {
+            foreach ($shippingRates as $key => $shippingRate){
                 $allShippingRates[] = $shippingRate->getData();
             }
             return $allShippingRates;
@@ -359,30 +399,6 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
             return array();
         }
 
-
-
-        //$customer_id = Mage::registry ('customer_id');
-
-
-//        $methods = Mage::getSingleton('shipping/config')->getActiveCarriers();
-//        $shipMethods = array();
-//        foreach ($methods as $shippingCode=>$shippingModel)
-//        {
-//            $shippingTitle = Mage::getStoreConfig('carriers/'.$shippingCode.'/title');
-//            $shipMethods[$shippingCode] = array(
-//                'label'   => $shippingTitle,
-//                'code' => $shippingCode,
-//            );
-//        }
-//        Zend_Debug::dump($shipMethods);
-//        die('Hung');
-
-        //$customer_id = $this->_getCustomerId();
-//        $this->getTotal();
-
-        //$order = Mage::getModel('sales/order')->loadBy
-
-        //return $shipMethods;
     }
     public function getPostData(){
         $dataPost = Mage::registry('dataPost');
@@ -422,5 +438,10 @@ class Smart_Test_Block_Adminhtml_Test extends Mage_Core_Block_Template{
         }else{
             return array();
         }
+    }
+
+    public function getItemsOrder($orderId){
+        $order = Mage::getModel('sales/order')->load($orderId);
+        $items = $order->getAllItems();
     }
 }
